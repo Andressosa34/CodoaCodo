@@ -1,0 +1,64 @@
+.form,
+.form > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form textarea {
+    max-height: 100px;
+}
+
+.submit,
+.reset {
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    outline: none;
+    transition: 250ms;
+}
+
+.submit {
+    background-color: #9eec7f;
+}
+
+.submit:hover {
+    background-color: #86ca6b;
+}
+
+.reset {
+    background-color: #ec7f7f;
+}
+
+.reset:hover {
+    background-color: #d37070;
+}
+
+.hero {
+    background-image: url(img/ba1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero .infoHero {
+    height: 250px;
+    width: 750px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+.info h2 {
+    text-align: center;
+}
